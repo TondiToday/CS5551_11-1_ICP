@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="WeatherApp">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular-sanitize.min.js"></script>
+
+<!--The header gives the page a title so the user knows what to do-->
+
+<head>
+    <meta charset="UTF-8">
+    <title>What's the Weather like today?</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+
+    <!--This section includes the css for the Weather Module box-->
+
+
+    <style>
+    .weatherModule {
+    background: #ffffff;
+    height: 325px;
+    width: 600px;
+        border: 2px solid;
+        border-color: black #444 #888 #ccc;
+    }
+    </style>
+</head>
+
+<!--This Section shows the users what the page is for through the UI-->
+
+<body ng-controller="WhatsTheWeather">
+<div class="container">
+    <div class="jumbotron">
+        <h1>Whats the Weather like?</h1>
+        <p>5 Day Forecast for any US City</p>
+    </div>
+</div>
+<br/>
+<br/>
+
+<!--This section gives an input option for the user to choose a City-->
+
+
+<div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <span class="input-group-text" id="inputGroup-sizing-default">Please Enter City</span>
+    </div>
+    <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" ng-model="CityName" id="CityName">
+</div>
+<br/>
+<br/>
+
+<!--This section allows the user to pick a State code from a dropdown menu-->
+
+<div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <label class="input-group-text" for="inputGroup">Please choose State Code</label>
+    </div>
+    <select class="custom-select" id="inputGroup" ng-model="CityCode">
+        <option selected>Choose...</option>
+        <option value="AL">AL</option>
+        <option value="AK">AK</option>
+        <option value="AZ">AZ</option>
+        <option value="AR">AR</option>
+        <option value="CA">CA</option>
+        <option value="CO">CO</option>
+        <option value="CT">CT</option>
+        <option value="DE">DE</option>
+        <option value="FL">FL</option>
+        <option value="GA">GA</option>
+        <option value="HI">HI</option>
+        <option value="ID">ID</option>
+        <option value="IL">IL</option>
+        <option value="IN">IN</option>
+        <option value="IA">IA</option>
+        <option value="KS">KS</option>
+        <option value="KY">KY</option>
+        <option value="LA">LA</option>
+        <option value="ME">ME</option>
+        <option value="MD">MD</option>
+        <option value="MA">MA</option>
+        <option value="MI">MI</option>
+        <option value="MN">MN</option>
+        <option value="MS">MS</option>
+        <option value="MO">MO</option>
+        <option value="MT">MT</option>
+        <option value="NE">NE</option>
+        <option value="NV">NV</option>
+        <option value="NH">NH</option>
+        <option value="NJ">NJ</option>
+        <option value="NM">NM</option>
+        <option value="NY">NY</option>
+        <option value="NC">NC</option>
+        <option value="ND">ND</option>
+        <option value="OH">OH</option>
+        <option value="OK">OK</option>
+        <option value="OR">OR</option>
+        <option value="PA">PA</option>
+        <option value="RI">RI</option>
+        <option value="SC">SC</option>
+        <option value="SD">SD</option>
+        <option value="TN">TN</option>
+        <option value="TX">TX</option>
+        <option value="UT">UT</option>
+        <option value="VT">VT</option>
+        <option value="VA">VA</option>
+        <option value="WA">WA</option>
+        <option value="WV">WV</option>
+        <option value="WI">WI</option>
+        <option value="WY">WY</option>
+    </select>
+</div>
+<br/>
+<br/>
+<div class="container">
+
+    <!--This section is the html code for the Button which allows the users to find the weather-->
+
+    <button type="button" class="btn btn-primary" id="btn" ng-click="getWeather()" >Find Weather </button>
+</div>
+<br/>
+<br/>
+<div class="weatherModule">
+    <p class="currentConditions" ng-bind-html="currentweather.html"></p>
+    <div class="currentIcon" ng-bind-html="currentIcon.html"></div>
+
+    <!--The next section includes the Javascript which ties to the inputs from the user to the weather data.-->
+
+<script>
+angular.module('WeatherApp', ['ngSanitize'])
+.controller('WhatsTheWeather', function($scope, $http) {
+$scope.CityCode = document.getElementById('inputGroup-sizing-default').value;
+$scope.CityName = document.getElementById('inputGroup').value;
+$scope.getWeather = function() {
+
+    <!--Here we make the call to retrieve the JSON data from the Weather API-->
+
+$http.get('https://api.wunderground.com/api/36b799dc821d5836/hourly/q/' + $scope.CityCode + '/' + $scope.CityName + '.json').then( function(data) {
+console.log(data);
+
+<!--This section we parse the JSON data and retrieve our variables-->
+
+
+    const TempHour1 = data.data.hourly_forecast[0].temp.english;
+    const iconHour1 = data.data.hourly_forecast[0].icon_url;
+    const weatherHour1 = data.data.hourly_forecast[0].condition;
+    const TimeHour1 = data.data.hourly_forecast[0].FCTTIME.hour;
+
+    const TempHour2 = data.data.hourly_forecast[1].temp.english;
+    const iconHour2 = data.data.hourly_forecast[1].icon_url;
+    const weatherHour2 = data.data.hourly_forecast[1].condition;
+    const TimeHour2 = data.data.hourly_forecast[1].FCTTIME.hour;
+
+    const TempHour3 = data.data.hourly_forecast[2].temp.english;
+    const iconHour3 = data.data.hourly_forecast[2].icon_url;
+    const weatherHour3 = data.data.hourly_forecast[2].condition;
+    const TimeHour3 = data.data.hourly_forecast[2].FCTTIME.hour;
+
+    const TempHour4 = data.data.hourly_forecast[3].temp.english;
+    const iconHour4 = data.data.hourly_forecast[3].icon_url;
+    const weatherHour4 = data.data.hourly_forecast[3].condition;
+    const TimeHour4 = data.data.hourly_forecast[3].FCTTIME.hour;
+
+    const TempHour5 = data.data.hourly_forecast[4].temp.english;
+    const iconHour5 = data.data.hourly_forecast[4].icon_url;
+    const weatherHour5 = data.data.hourly_forecast[4].condition;
+    const TimeHour5 = data.data.hourly_forecast[4].FCTTIME.hour;
+
+    <!--Here the function displays the weather information to the user in a user friendly manner-->
+
+
+    $scope.currentweather ={
+        html:"<p></p><p> At " + TimeHour1 + "00 hours the temperature will be " + TempHour1 + " &deg; F and " + weatherHour1 + ". </p> " +
+            "<p> At " + TimeHour2 + "00 hours the temperature will be " + TempHour2 + " &deg; F and " + weatherHour2 + ". </p>" +
+            "<p> At " + TimeHour3 + "00 hours the temperature will be " + TempHour3 + " &deg; F and " + weatherHour3 + ". </p>" +
+            "<p> At " + TimeHour4 + "00 hours the temperature will be " + TempHour4 + " &deg; F and " + weatherHour4 + ". </p>" +
+            "<p> At " + TimeHour5 + "00 hours the temperature will be " + TempHour5 + " &deg; F and " + weatherHour5 + ". </p>"
+    };
+    $scope.currentIcon = {
+        html: "<img src='" + iconHour1  + "'/>" + "<img src='" + iconHour2  + "'/>" + "<img src='" + iconHour3  + "'/>" + "<img src='" + iconHour4  + "'/>" + "<img src='" + iconHour5  + "'/>"
+    };
+
+})
+}
+
+});
+</script>
+</div>
+</body>
+</html>
+
