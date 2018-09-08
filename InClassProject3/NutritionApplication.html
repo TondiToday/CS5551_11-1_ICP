@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" class="h-90" ng-app="NutritionApp">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular-sanitize.min.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body class="py-5 d-flex h-100 align-items-center" ng-controller="WhatAreTheCalories">
+<div class="container">
+    <div class="jumbotron">
+        <h1>What are the Calories?</h1>
+        <p>Enter a food item and find the Calories and serving weight in grams</p>
+    </div>
+
+<div class="mx-auto">
+<div class="input-group control-group after-add-more">
+
+
+    <input type="text" name="addmore[]" class="form-control" placeholder="Enter Food Item" ng-model="FoodItem" id="FoodItem">
+    <div class="input-group-btn">
+        <button class="btn btn-success add-more" ng-click="FindCalories()" type="button"><i class="glyphicon glyphicon-plus"></i> Enter </button>
+    </div>
+</div>
+</div>
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1"></label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" readonly ng-bind-html="CalorieInfo.html"></textarea>
+    </div>
+</div>
+<script>
+    angular.module('NutritionApp', ['ngSanitize'])
+    .controller('WhatAreTheCalories', function($scope, $http){
+        $scope.FoodItem = document.getElementById('FoodItem').value;
+        // const NutritionixID = 04cd3328;
+        // const NutritionixKey = 9c23f013f3650abadcea8e7faab5085e;
+        $scope.FindCalories = function(){
+$http.get('https://api.nutritionix.com/v1_1/search/'
+    + $scope.FoodItem + '?results=0:1&fields=*&appId=04cd3328&appKey=9c23f013f3650abadcea8e7faab5085e').then(function(data) {
+    console.log(data);
+
+    const ItemName = data.data.hits[0].fields.item_name;
+    console.log(ItemName);
+    const Calories = data.data.hits[0].fields.nf_calories;
+    console.log(Calories);
+    const Fat = data.data.hits[0].fields.nf_total_fat;
+    console.log(Fat);
+    const audio = new Audio('https://12659623-00da-4ab3-a3dd-faa3f2077c13:0AbVpkkg5cni@stream.watsonplatform.net/text-to-speech/api/v1/synthesize?text=' + $scope.FoodItem);
+    audio.play();
+        $scope.CalorieInfo = {
+            html: "The Calories per serving are: " + Calories +" Kcal. "+
+            "The Fat content per serving is: " + Fat + " grams. "}
+})
+    }
+
+        })
+
+</script>
+</body>
+</html>
