@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91affc29-2610-4a6b-93c0-e162a2838f35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../InClassProject3/NutritionApplication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InClassProject3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../InClassProject3/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,6 +50,7 @@
     <session id="-673899659">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -187,12 +188,12 @@
       <workItem from="1535561006965" duration="8229000" />
       <workItem from="1535670500280" duration="233000" />
       <workItem from="1535671733159" duration="22670000" />
-      <workItem from="1536355928058" duration="7498000" />
+      <workItem from="1536355928058" duration="7769000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38630000" />
+    <option name="totallyTimeSpent" value="38901000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />

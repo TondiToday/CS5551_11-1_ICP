@@ -1,0 +1,127 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml:2:1-26:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\2c659df11f786e5512885cc0718756ea\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\5e1641f2c474005c1175fc4368bced18\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\91a52678000cecf3fb83a41c52ebc70c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\278c682f8f8ad1025f69dd5f633fd465\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\778ca34d886a72faf826505dd2b0c210\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\783710f888d6a86fb22445836f6ff371\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\fc19f037a6c27ff8077838b17955aded\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\6269a7ebe66e6da56346cc5b1b5446b8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\b0c7ac9a75e664966be92e9fcea09caf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\870083e61a6efa37223a970b4fb7ca74\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\71910605bc684a979e18bba44bee5283\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\52635c12b2ca1fc881591cf3853267a0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\a9be428f3ca2f6365c135dbfcf10d176\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\10f86fe55a1bda79e62b80d3e65c1c22\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\aade487910f3733e1c871d683675393f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d14176fc196c8c2ac23f1728cb25eaa4\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml:3:5-47
+		INJECTED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml:4:5-66
+	android:name
+		ADDED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml:4:22-64
+application
+ADDED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml:5:5-24:19
+	android:supportsRtl
+		ADDED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml:8:9-41
+	android:icon
+		ADDED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml:10:9-40
+activity#tutorial.cs5551.com.translateapp.LoginActivity
+ADDED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml:11:9-19:20
+	android:label
+		ADDED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml:13:13-45
+	android:theme
+		ADDED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml:14:13-56
+	android:name
+		ADDED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml:12:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml:15:13-18:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml:17:27-74
+activity#tutorial.cs5551.com.translateapp.TranslateActivity
+ADDED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml:20:9-23:68
+	android:label
+		ADDED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml:22:13-61
+	android:theme
+		ADDED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml:23:13-56
+	android:name
+		ADDED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml:21:13-46
+uses-sdk
+INJECTED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\2c659df11f786e5512885cc0718756ea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\2c659df11f786e5512885cc0718756ea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\5e1641f2c474005c1175fc4368bced18\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\5e1641f2c474005c1175fc4368bced18\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\91a52678000cecf3fb83a41c52ebc70c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\91a52678000cecf3fb83a41c52ebc70c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\278c682f8f8ad1025f69dd5f633fd465\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\278c682f8f8ad1025f69dd5f633fd465\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\778ca34d886a72faf826505dd2b0c210\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\778ca34d886a72faf826505dd2b0c210\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\783710f888d6a86fb22445836f6ff371\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\783710f888d6a86fb22445836f6ff371\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\fc19f037a6c27ff8077838b17955aded\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\fc19f037a6c27ff8077838b17955aded\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\6269a7ebe66e6da56346cc5b1b5446b8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\6269a7ebe66e6da56346cc5b1b5446b8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\b0c7ac9a75e664966be92e9fcea09caf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\b0c7ac9a75e664966be92e9fcea09caf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\870083e61a6efa37223a970b4fb7ca74\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\870083e61a6efa37223a970b4fb7ca74\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\71910605bc684a979e18bba44bee5283\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\71910605bc684a979e18bba44bee5283\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\52635c12b2ca1fc881591cf3853267a0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\52635c12b2ca1fc881591cf3853267a0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\a9be428f3ca2f6365c135dbfcf10d176\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\a9be428f3ca2f6365c135dbfcf10d176\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\10f86fe55a1bda79e62b80d3e65c1c22\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\10f86fe55a1bda79e62b80d3e65c1c22\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\aade487910f3733e1c871d683675393f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\aade487910f3733e1c871d683675393f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d14176fc196c8c2ac23f1728cb25eaa4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\tondi\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d14176fc196c8c2ac23f1728cb25eaa4\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tondi\OneDrive\Documents\GitHub\CS5551_11-1_ICP\InClassProject4-SourceCode\TranslateApp\TranslateApp\app\src\main\AndroidManifest.xml
