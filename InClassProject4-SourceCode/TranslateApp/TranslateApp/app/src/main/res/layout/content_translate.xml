@@ -43,7 +43,6 @@
             android:inputType="textEmailAddress"
             android:hint="Enter the text to convert..."
             android:layout_weight="0.04" />
-
         <TextView
             android:id="@+id/txt_Result"
             android:layout_width="fill_parent"
@@ -52,7 +51,6 @@
             android:textSize="@dimen/abc_text_size_medium_material"
             android:textColor="#3b40c6"
             android:layout_marginTop="20dp" />
-
         <Button
             android:id="@+id/btn_Search"
             style="@style/Base.Widget.AppCompat.Button"
@@ -63,7 +61,6 @@
             android:onClick="translateText"
             android:text="Convert"
             android:textColor="#ba6349" />
-
         <Button
             android:id="@+id/btn_logout"
             android:layout_width="330dp"
