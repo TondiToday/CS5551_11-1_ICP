@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register</title>
+</head>
+<body>
+<ion-view view-title="Register" name="login-view">
+  <ion-content class="padding">
+    <div class="list list-inset">
+      <label class="item item-input">
+        <input type="text" placeholder="Choose a Username..." ng-model="data.newusername">
+      </label>
+      <label class="item item-input">
+        <input type="password" placeholder="Choose a Password..." ng-model="data.newpassword">
+      </label>
+    </div>
+    <button class="button button-block button-calm" ng-click="create()">Create</button>
+    <button class="button button-block button-calm" ng-click="return()">Return To Login</button>
+  </ion-content>
+</ion-view>
+</body>
+</html>
