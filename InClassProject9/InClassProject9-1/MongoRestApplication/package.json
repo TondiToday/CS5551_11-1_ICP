@@ -1,0 +1,17 @@
+{
+  "name": "mongorestapplication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "C:/Users/tondi/OneDrive/Documents/GitHub/CS5551_11-1_ICP/InClassProject9/CS5551-Tutorial-IX/MongoRestApplication/Node/mongo.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "mongodb": "^2.2.33"
+  }
+}
